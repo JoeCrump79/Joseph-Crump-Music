@@ -1,37 +1,40 @@
 body {
-  background: #ADD8E6;
-}
-
-.header {
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-h1 {
-  color: white;
-  color: white;
-}
-
-footer {
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-text {
-  color: white;
-  margin: 5px;
-}
-
-.footer-text a {
-  color: white;
-  text-decoration: none;
-}
-
-.footer-text a:hover {
-  text-decoration: underline;
-}
+  background-image: url("./images/picasso 1.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100vw 150vh;
+  }
+  #portrait {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+  .header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 { color: white;
+    color: white;
+  }
+  footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-text {
+    color: white;
+    margin: 5px;
+  }
+  .footer-text a {
+    color: white;
+  }
+  img{
+    height: 350px;
+    width: 350px; 
+    border: 10px solid black;
+  }
