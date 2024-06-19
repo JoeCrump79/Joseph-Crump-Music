@@ -3,38 +3,119 @@ body {
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  background-size: 100vw 150vh;
-  }
-  #portrait {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-  }
-  .header{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  h1 { color: white;
-    color: white;
-  }
-  footer{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .footer-text {
-    color: white;
-    margin: 5px;
-  }
-  .footer-text a {
-    color: white;
-  }
-  img{
-    height: 350px;
-    width: 350px; 
-    border: 10px solid black;
-  }
+  background-size: cover;
+  font-family: 'Segoe UI'
+
+}
+
+#portrait {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-left {
+  display: flex;
+  justify-content: end;
+  padding-right: 50px;
+  width: 100%;
+}
+
+.name-right {
+  display: flex;
+  justify-content: start;
+  padding-left: 50px;
+  width: 100%;
+}
+
+.name-text {
+  color: white;
+  font-size:xxx-large;
+}
+
+.block {
+  background-color: black;
+  min-width: 225px;
+  max-width: 225px;
+  height: 300px;
+  margin: 15px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.block-title {
+  color: white;
+  font-size: x-large;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-text {
+  color: white;
+  margin: 5px;
+  padding: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-text a {
+  color: white;
+}
+.custom-padding1 {
+  padding-bottom: 55px;
+}
+.custom-padding2 {
+  padding-bottom: 30px;
+}
+
+.custom-padding3 {
+  padding-bottom: -7px;
+}
+
+.guitar {
+  height: 300px;
+  width: 300px;
+  border: 10px solid black;
+}
+
+.instagram {
+  width: 150px
+}
+
+.facebook {
+  width: 60px
+}
+
+.linktree {
+  width: 107px
+}
+
+#fade {
+  opacity: 0;
+  transition: opacity 1s ease-in-out; 
+  width: 50px
+}
+
+#outercontainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#middlecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
